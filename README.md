@@ -4,6 +4,9 @@ This Refind boot manager theme uses transparency to vibrantly highlight and reve
 
 ![Preview](previewl.webp)
 
+Icons Demo (50% Scale):
+![Icons Demo](iconsDemoL.webp)
+
 Dark Version: [refindTTT](https://github.com/gutlessCGH/refindTTT)
 
 ### Installation
