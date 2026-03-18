@@ -26,11 +26,12 @@ Then add `include themes/refindTTL/theme.conf` at the end of /boot/EFI/refind/re
 
 ### Customization
 
-Open /refindTTL/theme.conf and follow directions to edit:
+Open '/refindTTL/theme.conf' and follow directions to edit:
 
 * Maximum number of icons shown (default 7 should fit like the preview on a 1920 pixel wide monitor)
 * Timeout before automatic boot
 * Selection backgrounds (set alternates to hide text label)
+* Hidden elements (Labels, hints, arrows, and badges are hidden by default)
 
 Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the black square in big, the bottom 30 pixels of the black square in small.  Keep the edges transparent.
 
@@ -54,4 +55,8 @@ More extensive fixes can be done by adding a boot stanza to /boot/EFI/refind/ref
     
 Boot options may be found in refind_linux.conf (sudo nano /boot/refind_linux.conf).   After booting into an OS copy the long string in quotes after "Boot with standard options"
 
-Entries can be hidden in Refind by pressing the 'delete' key.
+Snapshot icons with the Btfrs logo and monochrome versions of popular distros are included for refind-btfrs. To set one as a custom icon edit '/etc/refind-btfrs.conf'
+
+	[boot-stanza-generation.icon]
+	mode = "custom" 
+	path = "themes/refindTTL/icons/btfrs.png"
