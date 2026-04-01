@@ -39,7 +39,7 @@ Open '/refindTTL/theme.conf' and follow directions to edit:
 * Selection backgrounds (set alternates to hide text labels for large and/or small icons)
 * Hidden elements (Labels, hints, arrows, and badges are hidden by default but will work if enabled)
 
-Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the black square in big, the bottom 30 pixels of the black square in small.  Keep the edges transparent.
+Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the black square in big, the bottom 30 pixels of the black square in small.  Painting over the entire square will apply a tint to the highlighted icon.  Keep the edges of these background images transparent.
 
 ![Tints Demo](previewlc.webp)
 
