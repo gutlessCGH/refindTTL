@@ -32,9 +32,10 @@ Then add `include themes/refindTTL/theme.conf` at the end of /boot/EFI/refind/re
 
 ### Customization
 
-Open '/refindTTL/theme.conf' and follow directions to edit:
+To use a smaller, 2/3 scale icon set change `include themes/refindTTL/theme.conf` in /boot/EFI/refind/refind.conf to "include themes/refindTTL/theme176.conf"
 
-* To switch to smaller, 2/3 scale icon set follow instructions in comments
+Open '/refindTTL/theme.conf' or /refindTTL/theme176.conf' and follow directions to edit:
+
 * Maximum number of icons shown (default 7 should fit like the preview on a 1920 pixel wide monitor)
 * Timeout before automatic boot
 * Selection backgrounds (set alternates to hide text labels for large and/or small icons)
