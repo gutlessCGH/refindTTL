@@ -14,6 +14,7 @@ Swapping icons to or from this theme will not work without modification. In part
 
 ### Dark Version: [refindTTT](https://github.com/gutlessCGH/refindTTT)
 
+![Preview](previewTTT.webp)
 
 ### Installation
 
@@ -38,7 +39,7 @@ Alternate icons are included for macOS, Windows, and most rEFInd functions & too
 
 Open '/refindTTL/theme.conf' or /refindTTL/theme176.conf' and follow directions to edit:
 
-* Maximum number of icons shown (default 7 should fit like the preview on a 1920 pixel wide monitor)
+* Maximum number of icons on screen
 * Timeout before automatic boot
 * Selection backgrounds (set alternates to hide text labels for large and/or small icons)
 * Hidden elements (Labels, hints, arrows, and badges are hidden by default but will work if enabled)
