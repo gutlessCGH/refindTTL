@@ -43,10 +43,10 @@ Open '/refindTTL/theme.conf' or /refindTTL/theme176.conf' and follow directions 
 
 * Maximum number of icons on screen
 * Timeout before automatic boot
-* Selection backgrounds (set alternates to hide text labels for large and/or small icons)
-* Hidden elements (Labels, hints, arrows, and badges are hidden by default but will work if enabled)
+* Selection backgrounds (set alternates to hide text labels or to use color labels)
+* Hidden elements (hints, labels, arrows, and badges are hidden by default but will work if enabled)
 
-Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the black square in big, the bottom 30 pixels of the black square in small.  Painting over the entire square will apply a tint to the highlighted icon.  Keep the edges of these background images transparent.
+There are selection backgrounds for blue, dark purple, teal, or violet labels. Text can be changed to any color by modifying the selection_big_...png & selection_small_...png files. Paint over the bottom 50 pixels of the center square in big, the bottom 30 pixels in small. Painting over the entire squares will also tint selected icon (not very effective for large icons, but will make small function icons all light up in color). Either way keep the edges transparent.
 
 ![Tints Demo](previewlc.webp)
 
